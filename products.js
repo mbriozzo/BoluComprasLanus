@@ -71,10 +71,10 @@ const products = [
     },
     {
         id: 8,
-        name: 'Mate Autocebante diferentes colores',
+        name: 'Mate Autocebante diferentes colores Acero inox',
         category: 'hogar',
         price: 25000,
-        image: 'https://http2.mlstatic.com/D_NQ_NP_2X_624086-MLA93715466396_102025-F.webp',
+        image: 'https://plain-enam-prod-public.komododecks.com/202610/28/5YsQsTkmhnh56vKy04CF/image.jpg',
         description: 'Capacidad: 500ml.'
     },
     {
