@@ -103,6 +103,14 @@ const products = [
     },
     {
         id: 12,
+        name: 'Pendrive Kingston de 64gb!',
+        category: 'electronica',
+        price: 25000,
+        image: 'https://images-cdn.kyte.site/v0/b/kyte-7c484.appspot.com/o/Iobk17pi7meoHjxdVEM79ySdVj93%2Fa0fbd30c-822b-4e52-9413-96322515837d.jpg?alt=media',
+        description: '* El disco Flash USB DataTraveler G4 de Kingston cumple las especificaciones USB 3.0 con el fin de aprovechar de esta tecnología en los nuevos notebooks, ordenadores de sobremesa y dispositivos digitales. *Capacidad 64GB.'
+    },
+    {
+        id: 13,
         name: 'Pava Electrica con Corte para Mate Gacyf',
         category: 'hogar',
         price: 25000,
