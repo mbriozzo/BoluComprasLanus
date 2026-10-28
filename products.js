@@ -71,7 +71,7 @@ const products = [
     },
     {
         id: 8,
-        name: 'Mate Autocebante',
+        name: 'Mate Autocebante diferentes colores',
         category: 'hogar',
         price: 25000,
         image: 'https://deportodosur.com.ar/wp-content/uploads/2025/05/Dani-2025-05-24T094538.340.png',
