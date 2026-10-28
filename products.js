@@ -48,7 +48,7 @@ const products = [
     {
         id: 5,
         name: 'Camara de seguridad Foco Inteligente Exxtra Tech',
-        category: 'hogar',
+        category: 'electronica',
         price: 35000,
         image: 'https://images-cdn.kyte.site/v0/b/kyte-7c484.appspot.com/o/Iobk17pi7meoHjxdVEM79ySdVj93%2F3ed29b8d-258b-4968-a218-ba8e9623a16e.jpg?alt=media',
         description: 'La Camara de Seguridad Exxtra Tech EXCC2 está pensada para quienes desean vigilar sus espacios con mayor control y claridad * Su conectividad WiFi permite acceder a la imagen desde la app, mientras su visión panorámica de 360 grados y el motor integrado ayudan a cubrir amplias áreas con una sola unidad..'
@@ -56,7 +56,7 @@ const products = [
     {
         id: 6,
         name: 'Camara de Seguridad Inteligente para Exterior ExxtraTech Nuevas!',
-        category: 'hogar',
+        category: 'electronica',
         price: 40000,
         image: 'https://images-cdn.kyte.site/v0/b/kyte-7c484.appspot.com/o/Iobk17pi7meoHjxdVEM79ySdVj93%2F1550B931-8364-425F-AA83-DFE613D8B9E6.jpg?alt=media',
         description: 'CÁMARA DE SEGURIDAD WIFI EXXTRA TECH 360° CON CONTROL DESDE EL CELULAR *Mantén tu espacio de trabajo ordenado con compartimentos versátiles *Protegé y supervisá tu hogar, comercio, entrada o cualquier otro espacio directamente desde tu teléfono. Con la aplicación YCC365Plus podés ver en vivo, controlar el movimiento de la cámara, escuchar lo que sucede y hablar con quien se encuentre frente a ella..'
@@ -73,7 +73,7 @@ const products = [
         id: 8,
         name: 'Mate Autocebante',
         category: 'hogar',
-        price: 30000,
+        price: 25000,
         image: 'https://deportodosur.com.ar/wp-content/uploads/2025/05/Dani-2025-05-24T094538.340.png',
         description: 'Capacidad: 500ml.'
     },
