@@ -143,6 +143,14 @@ const products = [
     },
     {
         id: 17,
+        name: 'Sabanas lisas de 1 1/2 plazas Blanco Paris!',
+        category: 'hogar',
+        price: 25000,
+        image: 'https://images-cdn.kyte.site/v0/b/kyte-7c484.appspot.com/o/Iobk17pi7meoHjxdVEM79ySdVj93%2F8bd7b87c-5930-4c1d-a0a9-84da771f1d67.jpg?alt=media',
+        description: 'Juego de sábanas Blanco Paris de 1 ½ plaza, hecho en 100% microfibra de poliéster. Colores lisos vibrantes, que no destiñen ni encogen con los lavados. El juego se compone de una sábana ajustable con elástico, una sábana superior plana y una funda de almohada.'
+    },
+    {
+        id: 18,
         name: 'Pava Electrica con Corte para Mate Gacyf',
         category: 'hogar',
         price: 25000,
