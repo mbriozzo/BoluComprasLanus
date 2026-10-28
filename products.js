@@ -71,6 +71,14 @@ const products = [
     },
     {
         id: 8,
+        name: 'Mate Autocebante',
+        category: 'hogar',
+        price: 30000,
+        image: 'https://deportodosur.com.ar/wp-content/uploads/2025/05/Dani-2025-05-24T094538.340.png',
+        description: 'Capacidad: 500ml.'
+    },
+    {
+        id: 9,
         name: 'Pava Electrica con Corte para Mate Gacyf',
         category: 'hogar',
         price: 23500,
