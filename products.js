@@ -135,6 +135,14 @@ const products = [
     },
     {
         id: 16,
+        name: 'Vaso Térmico Inteligente para café Aitech!',
+        category: 'hogar',
+        price: 22000,
+        image: 'https://images-cdn.kyte.site/v0/b/kyte-7c484.appspot.com/o/Iobk17pi7meoHjxdVEM79ySdVj93%2FEDF71B24-1179-4FED-B2AD-E461BB5DAFBE.jpg?alt=media',
+        description: 'Capacidad de 500 ml. *Fabricado en acero inoxidable 304. *Display indicador de temperatura en la tapa. *Sensor de temperatura integrado. *Tapa a rosca hermética'
+    },
+    {
+        id: 17,
         name: 'Pava Electrica con Corte para Mate Gacyf',
         category: 'hogar',
         price: 25000,
