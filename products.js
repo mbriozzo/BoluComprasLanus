@@ -119,6 +119,14 @@ const products = [
     },
     {
         id: 14,
+        name: 'SECA PLATO SOBRE BACHA C/PUERTA 65cm',
+        category: 'hogar',
+        price: 70000,
+        image: 'https://http2.mlstatic.com/D_NQ_NP_2X_776640-MLA118598193284_102026-F.webp',
+        description: 'Medidas: 65cm x 29cm x 77cm.'
+    },
+    {
+        id: 15,
         name: 'Pava Electrica con Corte para Mate Gacyf',
         category: 'hogar',
         price: 25000,
