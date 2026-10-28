@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoluCompras Lanus - Productos Varios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navbar -->
+    <header>
+        <div class="navbar">
+            <a href="index.html" class="logo">
+                <img src="Logo.jpg" alt="Logo"> BoluCompras Lanus
+            </a>
+            <button class="cart-btn" id="cartToggleBtn">
+                🛒 Carrito (<span id="cartCount">0</span>)
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Encuentra lo que buscás al mejor precio</h1>
+        <p>Explora nuestras categorías, elige tus productos favoritos y realiza tu pedido de forma rápida y directa por WhatsApp.</p>
+
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Buscar productos (ej: auriculares, ollas)...">
+            <button id="searchBtn">Buscar</button>
+        </div>
+    </section>
+
+    <!-- Main Container -->
+    <main class="container">
+        <!-- Categories Filter Tabs -->
+        <div class="categories-container" id="categoriesContainer">
+            <!-- Dinámico mediante JS -->
+        </div>
+
+        <h2 class="section-title" id="sectionTitle">Todos los Productos</h2>
+
+        <!-- Products Grid -->
+        <div class="products-grid" id="productsGrid">
+            <!-- Dinámico mediante JS -->
+        </div>
+    </main>
+
+    <!-- Cart Drawer Modal -->
+    <div class="modal-overlay" id="cartModal">
+        <div class="cart-drawer">
+            <div class="cart-header">
+                <h2>Tu Carrito de Compras</h2>
+                <button class="close-cart" id="closeCartBtn">&times;</button>
+            </div>
+            <div class="cart-items" id="cartItemsContainer">
+                <!-- Items del carrito -->
+            </div>
+            <div class="cart-footer">
+                <div class="cart-total">
+                    <span>Total:</span>
+                    <span id="cartTotalPrice">$0</span>
+                </div>
+                <button class="btn-checkout" id="whatsappCheckoutBtn">
+                    💬 Enviar Pedido por WhatsApp
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 BoluCompras Lanus. Todos los derechos reservados. Creado para ventas directas.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="products.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
