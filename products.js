@@ -87,6 +87,14 @@ const products = [
     },
     {
         id: 10,
+        name: 'CARPA PARA 6 PERSONAS',
+        category: 'Camping',
+        price: 60000,
+        image: 'https://http2.mlstatic.com/D_NQ_NP_2X_647361-MLA117487411973_092026-F.webp',
+        description: '2x2.2x1,45m.'
+    },
+    {
+        id: 11,
         name: 'Pava Electrica con Corte para Mate Gacyf',
         category: 'hogar',
         price: 25000,
