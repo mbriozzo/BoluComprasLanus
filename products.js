@@ -74,7 +74,7 @@ const products = [
         name: 'Mate Autocebante diferentes colores',
         category: 'hogar',
         price: 25000,
-        image: 'https://ibb.co/99ZqSbp7',
+        image: 'https://http2.mlstatic.com/D_NQ_NP_2X_624086-MLA93715466396_102025-F.webp',
         description: 'Capacidad: 500ml.'
     },
     {
