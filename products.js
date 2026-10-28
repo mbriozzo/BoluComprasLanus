@@ -78,7 +78,7 @@ const products = [
         description: 'Capacidad: 500ml.'
     },
     {
-        id: 8,
+        id: 9,
         name: 'SET DE CAÑA DE PESCAR',
         category: 'Camping',
         price: 35000,
@@ -86,7 +86,7 @@ const products = [
         description: 'Todo lo que necesitás para disfrutar de una jornada de pesca en un solo set. Ideal tanto para quienes están comenzando como para tener un equipo práctico y completo listo para usar.INCLUYE:• Caña de pesca telescópica• Reel de pesca• Caja organizadora• Señuelos y accesorios de pesca surtidos• Anzuelos, plomadas y complementos• Kit práctico y fácil de transportar.'
     },
     {
-        id: 9,
+        id: 10,
         name: 'Pava Electrica con Corte para Mate Gacyf',
         category: 'hogar',
         price: 25000,
