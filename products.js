@@ -78,10 +78,18 @@ const products = [
         description: 'Capacidad: 500ml.'
     },
     {
+        id: 8,
+        name: 'SET DE CAÑA DE PESCAR',
+        category: 'Camping',
+        price: 35000,
+        image: 'https://http2.mlstatic.com/D_NQ_NP_2X_819631-MLA116551338018_092026-F.webp',
+        description: 'Todo lo que necesitás para disfrutar de una jornada de pesca en un solo set. Ideal tanto para quienes están comenzando como para tener un equipo práctico y completo listo para usar.INCLUYE:• Caña de pesca telescópica• Reel de pesca• Caja organizadora• Señuelos y accesorios de pesca surtidos• Anzuelos, plomadas y complementos• Kit práctico y fácil de transportar.'
+    },
+    {
         id: 9,
         name: 'Pava Electrica con Corte para Mate Gacyf',
         category: 'hogar',
-        price: 23500,
+        price: 25000,
         image: 'https://images-cdn.kyte.site/v0/b/kyte-7c484.appspot.com/o/Iobk17pi7meoHjxdVEM79ySdVj93%2F03a0bfcd-f1ef-4ad7-9fad-57ce5b57ac98.jpg?alt=media',
         description: 'JARRA ELECTRICA GACYF 1800W NEGRA 1.7L CON CORTE PARA MATE/CAFE.'
     }
