@@ -95,6 +95,14 @@ const products = [
     },
     {
         id: 11,
+        name: 'Sabanas Lisas Cotton Touch Blanco Paris de 2 1/2 plazas!',
+        category: 'hogar',
+        price: 30000,
+        image: 'https://images-cdn.kyte.site/v0/b/kyte-7c484.appspot.com/o/Iobk17pi7meoHjxdVEM79ySdVj93%2F1B1B67CA-995F-4763-BE7E-63A35C6C1E2D.jpg?alt=media',
+        description: 'Juego de sábanas Blanco Paris de 2 ½ plazas, hecho en 100% microfibra de poliéster. Colores lisos vibrantes, que no destiñen ni encogen con los lavados. El juego se compone de una sábana ajustable con elástico, una sábana superior plana y dos fundas de almohada.'
+    },
+    {
+        id: 12,
         name: 'Pava Electrica con Corte para Mate Gacyf',
         category: 'hogar',
         price: 25000,
