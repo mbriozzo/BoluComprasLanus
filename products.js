@@ -111,6 +111,14 @@ const products = [
     },
     {
         id: 13,
+        name: 'Ventilador 3 en 1 de 18" Tower',
+        category: 'electronica',
+        price: 65000,
+        image: 'https://images-cdn.kyte.site/v0/b/kyte-7c484.appspot.com/o/Iobk17pi7meoHjxdVEM79ySdVj93%2F7da9456e-ac44-49d4-9c8f-c72a44ed2023.jpg?alt=media',
+        description: '* 3 en1(Piso, mesa, Pared). * Potencia: 90w. * 5 Aspas Metalicas.'
+    },
+    {
+        id: 14,
         name: 'Pava Electrica con Corte para Mate Gacyf',
         category: 'hogar',
         price: 25000,
