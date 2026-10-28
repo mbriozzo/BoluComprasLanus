@@ -125,8 +125,16 @@ const products = [
         image: 'https://http2.mlstatic.com/D_NQ_NP_2X_776640-MLA118598193284_102026-F.webp',
         description: 'Medidas: 65cm x 29cm x 77cm.'
     },
-    {
+     {
         id: 15,
+        name: 'Parlante Inalambrico Bluetooth de 8" Oryx Earth',
+        category: 'electronica',
+        price: 60000,
+        image: 'https://images-cdn.kyte.site/v0/b/kyte-7c484.appspot.com/o/Iobk17pi7meoHjxdVEM79ySdVj93%2Fe5541799-6854-48b0-81c1-12b52d5cea36.jpg?alt=media',
+        description: '* Modelo : New Earth - 1146A.Duración batería: 2/6hs - Dependiendo tipo de uso y sonido * Batería interna recargable.* Juego de Luces Led. * Entradas: Soporte USB / Tarjeta Micro SD / Radio FM / Aux-in * Incluye Microfono con Cable.'
+    },
+    {
+        id: 16,
         name: 'Pava Electrica con Corte para Mate Gacyf',
         category: 'hogar',
         price: 25000,
