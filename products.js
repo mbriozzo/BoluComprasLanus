@@ -158,6 +158,14 @@ const products = [
     },
     {
         id: 19,
+        name: 'Silla Gamer Novohome con Apoya pies!',
+        category: 'Herramientas',
+        price: 170000,
+        image: 'https://images-cdn.kyte.site/v0/b/kyte-7c484.appspot.com/o/Iobk17pi7meoHjxdVEM79ySdVj93%2F1B8C343C-39F4-4F1D-9113-710558E7275D.jpg?alt=media',
+        description: '- Peso máximo soportado: 120 Kg. Respaldo ergonómico de gran altura. Regulación de altura pistón hidráulico clase III con ajuste de 10 cm - Reclinación de 90° a 120°. Traba el respaldo al ángulo que más desees..'
+    },
+    {
+        id: 20,
         name: 'Pava Electrica con Corte para Mate Gacyf',
         category: 'hogar',
         price: 25000,
