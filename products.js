@@ -8,7 +8,6 @@ const categories = [
     { id: 'Herramientas', name: 'Herramientas' },
     { id: 'indumentaria', name: 'Indumentaria y Accesorios' },
     { id: 'Camping', name: 'Camping y aire libre' },
-    { id: 'Herramientas', name: 'Herramientas' },
     { id: 'varios', name: 'Varios / Oportunidades' }
 ];
 
@@ -152,7 +151,7 @@ const products = [
     {
         id: 18,
         name: 'Caja 108 Piezas Set Juego De Tubos Bocallaves 1/2-1/4',
-        category: 'herramientas',
+        category: 'Herramientas',
         price: 67800,
         image: 'https://http2.mlstatic.com/D_NQ_NP_2X_891729-MLA99435054734_112025-F.webp',
         description: 'juego de tubos de 108 piezas construido en cromo vanadio, incluye las piezas más usadas en mecánica, excelente calidad, maletín plástico con doble traba.'
