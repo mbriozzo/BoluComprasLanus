@@ -24,20 +24,23 @@
     <section class="hero">
         <h1>Encuentra lo que buscás al mejor precio</h1>
         <p>Explora nuestras categorías, elige tus productos favoritos y realiza tu pedido de forma rápida y directa por WhatsApp.</p>
-
-        <div class="search-bar">
-            <input type="text" id="searchInput" placeholder="Buscar productos (ej: auriculares, ollas)...">
-            <button id="searchBtn">Buscar</button>
-        </div>
     </section>
+
+    <!-- Sticky Search & Categories Bar -->
+    <div class="sticky-filter-bar">
+        <div class="sticky-filter-content">
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Buscar productos (ej: auriculares, ollas)...">
+                <button id="searchBtn">Buscar</button>
+            </div>
+            <div class="categories-container" id="categoriesContainer">
+                <!-- Dinámico mediante JS -->
+            </div>
+        </div>
+    </div>
 
     <!-- Main Container -->
     <main class="container">
-        <!-- Categories Filter Tabs -->
-        <div class="categories-container" id="categoriesContainer">
-            <!-- Dinámico mediante JS -->
-        </div>
-
         <h2 class="section-title" id="sectionTitle">Todos los Productos</h2>
 
         <!-- Products Grid -->
