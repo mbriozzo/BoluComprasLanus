@@ -33,18 +33,18 @@ body {
 body::before, body::after {
     content: "";
     position: fixed;
-    width: 250px;
-    height: 250px;
+    width: 320px;
+    height: 320px;
     pointer-events: none;
     z-index: 1;
-    opacity: 0.12;
+    opacity: 0.45;
     background-image: 
-        radial-gradient(circle at 0 0, transparent 70%, rgba(255, 255, 255, 0.3) 71%, transparent 72%),
-        radial-gradient(circle at 0 0, transparent 50%, rgba(255, 255, 255, 0.25) 51%, transparent 52%),
-        radial-gradient(circle at 0 0, transparent 30%, rgba(255, 255, 255, 0.2) 31%, transparent 32%),
-        linear-gradient(45deg, transparent 48%, rgba(255, 255, 255, 0.25) 49%, transparent 50%),
-        linear-gradient(0deg, transparent 48%, rgba(255, 255, 255, 0.25) 49%, transparent 50%),
-        linear-gradient(90deg, transparent 48%, rgba(255, 255, 255, 0.25) 49%, transparent 50%);
+        radial-gradient(circle at 0 0, transparent 70%, rgba(255, 255, 255, 0.6) 71%, transparent 73%),
+        radial-gradient(circle at 0 0, transparent 50%, rgba(255, 255, 255, 0.5) 51%, transparent 53%),
+        radial-gradient(circle at 0 0, transparent 30%, rgba(255, 255, 255, 0.4) 31%, transparent 33%),
+        linear-gradient(45deg, transparent 47%, rgba(255, 255, 255, 0.5) 49%, transparent 51%),
+        linear-gradient(0deg, transparent 47%, rgba(255, 255, 255, 0.5) 49%, transparent 51%),
+        linear-gradient(90deg, transparent 47%, rgba(255, 255, 255, 0.5) 49%, transparent 51%);
 }
 
 body::before {
