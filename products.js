@@ -7,8 +7,7 @@ const categories = [
     { id: 'hogar', name: 'Hogar y Bazar' },
     { id: 'Herramientas', name: 'Herramientas' },
     { id: 'indumentaria', name: 'Indumentaria y Accesorios' },
-    { id: 'Camping', name: 'Camping y aire libre' },
-    { id: 'varios', name: 'Varios / Oportunidades' }
+    { id: 'Camping', name: 'Camping y aire libre' }
 ];
 
 const products = [
