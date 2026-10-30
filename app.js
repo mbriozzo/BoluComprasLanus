@@ -181,7 +181,7 @@ function updateCartUI() {
 
     cartItemsContainer.innerHTML = '';
     if (cart.length === 0) {
-        cartItemsContainer.innerHTML = `<p style="text-align: center; color: var(--text-muted); margin-top: 2rem;">Tu carrito está vacío.</p>`;
+        cartItemsContainer.innerHTML = `<p style="text-align: center; color: var(--text-muted); margin-top: 3rem;">🛒 Tu carrito está vacío.</p>`;
         cartTotalPrice.textContent = '$0';
         return;
     }
@@ -194,15 +194,16 @@ function updateCartUI() {
         const div = document.createElement('div');
         div.className = 'cart-item';
         div.innerHTML = `
-            <div class="cart-item-info">
+            <img src="${item.image}" alt="${item.name}" class="cart-item-img">
+            <div class="cart-item-details">
                 <h4>${item.name}</h4>
-                <p>$${item.price.toLocaleString('es-AR')} x ${item.quantity}</p>
-            </div>
-            <div class="cart-item-actions">
-                <button onclick="changeQuantity(${item.id}, -1)">-</button>
-                <span>${item.quantity}</span>
-                <button onclick="changeQuantity(${item.id}, 1)">+</button>
-                <button onclick="removeFromCart(${item.id})" style="color: #ef4444; margin-left: 0.5rem;" title="Eliminar">&times;</button>
+                <div class="cart-item-price">$${item.price.toLocaleString('es-AR')}</div>
+                <div class="cart-item-actions">
+                    <button class="qty-btn" onclick="changeQuantity(${item.id}, -1)">-</button>
+                    <span class="qty-num">${item.quantity}</span>
+                    <button class="qty-btn" onclick="changeQuantity(${item.id}, 1)">+</button>
+                    <button class="remove-btn" onclick="removeFromCart(${item.id})" title="Eliminar">🗑️</button>
+                </div>
             </div>
         `;
         cartItemsContainer.appendChild(div);
