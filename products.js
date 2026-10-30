@@ -173,6 +173,14 @@ const products = [
     },
     {
         id: 21,
+        name: 'Juego de toalla y toallon Franco Valente 400gr',
+        category: 'hogar',
+        price: 25000,
+        image: 'https://images-cdn.kyte.site/v0/b/kyte-7c484.appspot.com/o/Iobk17pi7meoHjxdVEM79ySdVj93%2F23f71906-1e41-4d23-8952-1b7ea6882951.jpg?alt=media',
+        description: '* Toalla: 45cm x 80cm * Toallón: 70cm x 140cm * Composición: 100% algodón'
+    },
+    {
+        id: 22,
         name: 'Pava Electrica con Corte para Mate Gacyf',
         category: 'hogar',
         price: 25000,
