@@ -23,39 +23,11 @@
 }
 
 body {
-    background-color: var(--bg-main);
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 400 400'%3E%3Cg stroke='rgba(255,255,255,0.22)' stroke-width='1' fill='none'%3E%3Cpath d='M0 0 L400 400 M0 200 L400 200 M200 0 L200 400 M100 0 L300 400'/%3E%3Cpath d='M80 0 Q80 80 0 80 M160 0 Q160 160 0 160 M240 0 Q240 240 0 240 M320 0 Q320 320 0 320'/%3E%3Cpath d='M400 0 L0 400 M0 100 L400 300'/%3E%3Cpath d='M320 400 Q320 320 400 320 M240 400 Q240 240 400 240 M160 400 Q160 160 400 160'/%3E%3C/g%3E%3Cg fill='%23ffffff'%3E%3Ccircle cx='280' cy='120' r='4'/%3E%3Ccircle cx='280' cy='129' r='6'/%3E%3Cpath d='M274 125 L260 118 M286 125 L300 118 M274 133 L260 140 M286 133 L300 140' stroke='%23ffffff' stroke-width='1.2'/%3E%3Cline x1='280' y1='0' x2='280' y2='120' stroke='rgba(255,255,255,0.25)' stroke-width='1'/%3E%3Ccircle cx='90' cy='310' r='3.5'/%3E%3Ccircle cx='90' cy='317' r='5'/%3E%3Cpath d='M85 315 L72 310 M95 315 L108 310 M85 320 L72 325 M95 320 L108 325' stroke='%23ffffff' stroke-width='1'/%3E%3Cline x1='90' y1='200' x2='90' y2='310' stroke='rgba(255,255,255,0.2)' stroke-width='1'/%3E%3C/g%3E%3C/svg%3E");
+    background-repeat: repeat;
     color: var(--text-main);
     line-height: 1.6;
-    position: relative;
-}
-
-/* Halloween Subtle Spiderwebs Effect */
-body::before, body::after {
-    content: "";
-    position: fixed;
-    width: 320px;
-    height: 320px;
-    pointer-events: none;
-    z-index: 1;
-    opacity: 0.45;
-    background-image: 
-        radial-gradient(circle at 0 0, transparent 70%, rgba(255, 255, 255, 0.6) 71%, transparent 73%),
-        radial-gradient(circle at 0 0, transparent 50%, rgba(255, 255, 255, 0.5) 51%, transparent 53%),
-        radial-gradient(circle at 0 0, transparent 30%, rgba(255, 255, 255, 0.4) 31%, transparent 33%),
-        linear-gradient(45deg, transparent 47%, rgba(255, 255, 255, 0.5) 49%, transparent 51%),
-        linear-gradient(0deg, transparent 47%, rgba(255, 255, 255, 0.5) 49%, transparent 51%),
-        linear-gradient(90deg, transparent 47%, rgba(255, 255, 255, 0.5) 49%, transparent 51%);
-}
-
-body::before {
-    top: 0;
-    left: 0;
-}
-
-body::after {
-    top: 0;
-    right: 0;
-    transform: scaleX(-1);
 }
 
 /* Header & Navbar */
