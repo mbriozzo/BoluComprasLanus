@@ -457,6 +457,11 @@ header {
     background: #1ebe5d;
 }
 
+/* Categories Hamburger Button (Hidden on Desktop) */
+.categories-hamburger {
+    display: none;
+}
+
 /* Footer */
 footer {
     background: var(--bg-card);
@@ -474,5 +479,59 @@ footer {
     }
     .navbar {
         padding: 1rem;
+    }
+    .sticky-filter-content {
+        position: relative;
+    }
+    .categories-hamburger {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        width: 100%;
+        max-width: 450px;
+        background: var(--bg-card);
+        border: 1px solid var(--border-color);
+        color: var(--text-main);
+        padding: 0.5rem 1rem;
+        border-radius: var(--radius);
+        font-weight: 600;
+        font-size: 0.9rem;
+        cursor: pointer;
+        transition: background 0.2s, border-color 0.2s;
+        margin-top: 0.25rem;
+    }
+    .categories-hamburger:hover {
+        background: var(--bg-card-hover);
+        border-color: var(--primary);
+    }
+    .categories-container {
+        display: none;
+        flex-direction: column;
+        gap: 0.4rem;
+        background: var(--bg-card);
+        border: 1px solid var(--border-color);
+        border-radius: var(--radius);
+        padding: 0.75rem;
+        width: 100%;
+        max-width: 450px;
+        position: absolute;
+        top: calc(100% + 5px);
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 100;
+        box-shadow: var(--shadow);
+        max-height: 250px;
+        overflow-y: auto;
+        margin-bottom: 0;
+    }
+    .categories-container.open {
+        display: flex;
+    }
+    .category-tab {
+        width: 100%;
+        text-align: center;
+        border-radius: 8px;
+        padding: 0.5rem;
     }
 }

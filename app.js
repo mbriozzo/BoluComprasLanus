@@ -43,6 +43,9 @@ function renderCategories() {
             document.querySelectorAll('.category-tab').forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
             renderProducts();
+
+            // Cerrar menú hamburguesa en móvil al seleccionar
+            categoriesContainer.classList.remove('open');
         });
         categoriesContainer.appendChild(btn);
     });
@@ -101,6 +104,21 @@ function setupEventListeners() {
     searchInput.addEventListener('keyup', (e) => {
         if (e.key === 'Enter') {
             searchBtn.click();
+        }
+    });
+
+    const categoriesHamburgerBtn = document.getElementById('categoriesHamburgerBtn');
+    if (categoriesHamburgerBtn) {
+        categoriesHamburgerBtn.addEventListener('click', () => {
+            categoriesContainer.classList.toggle('open');
+        });
+    }
+
+    // Cerrar menú de categorías al hacer clic fuera en móvil
+    document.addEventListener('click', (e) => {
+        const stickyFilterBar = document.querySelector('.sticky-filter-bar');
+        if (stickyFilterBar && !stickyFilterBar.contains(e.target)) {
+            categoriesContainer.classList.remove('open');
         }
     });
 
