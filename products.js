@@ -165,6 +165,14 @@ const products = [
     },
     {
         id: 20,
+        name: 'Molinillo de café Manual Hudson!',
+        category: 'hogar',
+        price: 33000,
+        image: 'https://images-cdn.kyte.site/v0/b/kyte-7c484.appspot.com/o/Iobk17pi7meoHjxdVEM79ySdVj93%2FBCA2A422-C738-4557-860C-0B5948869657.jpg?alt=media',
+        description: '- Molinillo cerámico - Molienda regulable - Recipiente de vidrio con medidor - Manivela metálica'
+    },
+    {
+        id: 21,
         name: 'Pava Electrica con Corte para Mate Gacyf',
         category: 'hogar',
         price: 25000,
