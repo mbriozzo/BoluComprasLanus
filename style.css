@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap');
 
 :root {
-    --primary: #10b981;
-    --primary-dark: #059669;
-    --accent: #34d399;
-    --text-main: #f0fdf4;
-    --text-muted: #86efac;
-    --bg-main: #020c06;
-    --bg-card: #0d2b18;
-    --bg-card-hover: #133822;
-    --border-color: #1e4d30;
+    --primary: #6366f1;
+    --primary-dark: #4f46e5;
+    --accent: #10b981;
+    --text-main: #f3f4f6;
+    --text-muted: #9ca3af;
+    --bg-main: #000000;
+    --bg-card: #121212;
+    --bg-card-hover: #1a1a1a;
+    --border-color: #262626;
     --white: #ffffff;
-    --shadow: 0 4px 16px rgba(5, 43, 20, 0.6);
+    --shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
     --radius: 12px;
 }
 
@@ -368,7 +368,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgba(13, 43, 24, 0.9);
+    background: var(--bg-card);
 }
 
 .cart-header h2 {
@@ -412,7 +412,7 @@ header {
     display: flex;
     align-items: center;
     gap: 1rem;
-    background: rgba(19, 56, 34, 0.6);
+    background: var(--bg-card);
     border: 1px solid var(--border-color);
     border-radius: var(--radius);
     padding: 0.85rem;
@@ -427,7 +427,7 @@ header {
     width: 60px;
     height: 60px;
     object-fit: contain;
-    background: #05120a;
+    background: #0a0a0a;
     border-radius: 8px;
     padding: 4px;
     border: 1px solid var(--border-color);
@@ -503,7 +503,7 @@ header {
 .cart-footer {
     padding: 1.5rem;
     border-top: 1px solid var(--border-color);
-    background: #071c0f;
+    background: var(--bg-card);
 }
 
 .cart-total {
